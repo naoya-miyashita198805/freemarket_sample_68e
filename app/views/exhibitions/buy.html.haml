@@ -12,6 +12,7 @@
             .buy-item-container__box
               .buy-item-container__box__img
                 = image_tag @exhibition.images.first.image.url,size: "80x60"
+
               .buy-item-container__box__detail
                 %p.buy-item-container__box__detail__name
                   = @exhibition.item_name
